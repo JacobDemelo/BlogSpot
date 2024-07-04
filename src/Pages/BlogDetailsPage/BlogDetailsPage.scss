@@ -1,0 +1,120 @@
+/*
+ * Project Name: Blog Spot
+ * File Name: BlogDetailsPage.scss
+ * Purpose: This file is used to design the BlogDetailsPage
+ * Author: Jacob Demelo
+ * Date: 2023-04-11
+ */
+
+/*Designing all of the components*/
+.page-container {
+    width: 100%;
+    height: 500px;
+    padding-bottom: 50px;
+    margin-top: 95px;
+}
+
+.back-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.back-button a{
+    color: #BBBBBB;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.back-button a:hover{
+    color: #FE6232;
+}
+
+.blog-details-title {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.blog-details-title h2{
+    color: #FE6232;
+    font-weight: bold;
+}
+
+.blog-details-title p{
+    color: #BBBBBB;
+    font-weight: bold;
+}
+
+hr{
+    margin-top: 50px;
+    height: 2px;
+    background-color: #FE6232;;
+    border: none;
+}
+
+.blog-image-container{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.blog-image{
+    height: 200px;
+    width: 200px;
+}
+
+.blog-paragraph {
+    margin-left: 50px;
+    height: fit-content;
+    width: 90%;
+    padding-bottom: 300px;
+}
+
+.blog-paragraph-title h2{
+    margin-left: 50px;
+    color: black;
+}
+
+/*-----------------------------------------------Screen Sizes--------------------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .back-button a{
+        color: #BBBBBB;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    .blog-paragraph {
+        margin-left: 20px;
+        height: fit-content;
+        width: 80%;
+        padding-bottom: 250px;
+    }
+    
+    .blog-paragraph-title h2{
+        margin-left: 20px;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .back-button a{
+        color: #BBBBBB;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    .blog-paragraph {
+        margin-left: 20px;
+        height: fit-content;
+        width: 80%;
+        padding-bottom: 250px;
+    }
+    
+    .blog-paragraph-title h2{
+        margin-left: 20px;
+        color: black;
+    }
+
+}
+/*--------------------------------------------End Of Screen Sizes--------------------------------------*/

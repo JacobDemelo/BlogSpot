@@ -1,0 +1,452 @@
+/*
+ * Project Name: Blog Spot
+ * File Name: AboutUs.scss
+ * Purpose: This file will be used to style the about us page 
+ * Author: Jacob Demelo
+ * Date: 2023-04-11
+ */
+
+/*Designing screen divs*/
+.aboutus-container {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.aboutus-title {
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.aboutus-title h2 {
+    font-weight: bold;
+    color: #FD6536;
+}
+
+.statement {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.statement p {
+    font-weight: bold;
+    color: black;
+}
+
+.aboutus-description {
+    width: 60%;
+    margin-left: 50px;
+}
+
+button {
+    margin: auto;
+    background-color: #FE6232;
+    border: none;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+button:hover {
+    margin: auto;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FD6536;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    color: #FE6232;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.aboutus-footer {
+    margin-top: 30%;
+}
+  
+/*-----------------------------------------------Screen Sizes--------------------------------------*/
+@media only screen and (min-width: 200px) and (max-width: 235px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+}
+
+@media only screen and (min-width: 236px) and (max-width: 279px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 330px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+
+}
+
+@media only screen and (min-width: 331px) and (max-width: 399px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 479px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 519px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+
+
+}
+
+@media only screen and (min-width: 520px) and (max-width: 599px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 647px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 647px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+
+
+}
+
+@media only screen and (min-width: 648px) and (max-width: 799px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 999px) {
+    
+    .aboutus-title {
+        margin-left: 20px;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-description {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        padding: 0.55rem 0.5rem 0.25rem 0.55rem;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .aboutus-button{
+        padding-bottom: 250px;
+    }
+
+
+}
+/*-------------------------------------------End of Screen Sizes--------------------------------------*/

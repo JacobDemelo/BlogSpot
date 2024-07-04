@@ -1,0 +1,47 @@
+/*
+ * Project Name: Blog Spot
+ * File Name: Blog.scss
+ * Purpose: This file is used to design the Blog
+ * Author: Jacob Demelo
+ * Date: 2023-04-11
+ */
+
+//import the variables scss
+@import "./../../../styles/variables.scss";
+
+/*Design the components*/
+.blog-component {
+	border: solid 1px #FEB098;
+	margin: 1rem 0 0 0;
+	width: 30%;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	border-radius: 25px;
+	background-color: white;
+	display: inline-flex;
+	margin-left: 20px;
+}
+
+.content {
+	padding: 1rem;
+	font-size: 1rem;
+	color: $gray-color;
+
+	h3 {
+		font-size: 1.7rem;
+		font-weight: bold;
+		margin: 0;
+		padding: 0;
+		color: white;
+	}
+
+	div.date {
+		color: white;
+		font-weight: bold;
+	}
+
+	div.blog {
+		color: beige;
+		margin-top: 10px;
+	}
+}

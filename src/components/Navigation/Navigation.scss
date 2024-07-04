@@ -1,0 +1,492 @@
+/*
+ * Project Name: Blog Spot
+ * File Name: Navigation.scss
+ * Purpose: This file will design the navigation component
+ * Author: Jacob Demelo
+ * Date: 2023-04-11
+ */
+
+//designing the notfound title
+.not-found-title{
+    width: 100%;
+    margin-top: 120px;
+    height: fit-content;
+    text-align: center;
+}
+
+//designing the not found h2
+.not-found-title h2{
+    color: #FE6232;
+}
+
+//designing the p
+.not-found-title p{
+    color: black;
+    font-weight: bold;
+}
+
+//designing the button
+.notfound-button {
+    margin: auto;
+    background-color: #FE6232;
+    border: none;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+//designing the button with a hover
+.notfound-button:hover {
+    margin: auto;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FD6536;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    color: #FE6232;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+/*-----------------------------------------------Screen Sizes--------------------------------------*/
+@media only screen and (min-width: 280px) and (max-width: 330px) {
+    
+    .not-found-title{
+        width: 100%;
+        margin-top: 120px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .not-found-title h2{
+        color: #FE6232;
+    }
+    
+    .not-found-title p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .notfound-button {
+        margin: auto;
+        background-color: #FE6232;
+        border: none;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 50%;
+        border-radius: 30px;
+        margin-left: 0px;
+    }
+    
+    .notfound-button:hover {
+        margin: auto;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FD6536;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: #FE6232;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 15%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+    
+}
+
+@media only screen and (min-width: 331px) and (max-width: 399px) {
+    
+    .not-found-title{
+        width: 100%;
+        margin-top: 120px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .not-found-title h2{
+        color: #FE6232;
+    }
+    
+    .not-found-title p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .notfound-button {
+        margin: auto;
+        background-color: #FE6232;
+        border: none;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 50%;
+        border-radius: 30px;
+    }
+    
+    .notfound-button:hover {
+        margin: auto;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FD6536;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: #FE6232;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 50%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 479px) {
+    
+    .not-found-title{
+        width: 100%;
+        margin-top: 120px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .not-found-title h2{
+        color: #FE6232;
+    }
+    
+    .not-found-title p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .notfound-button {
+        margin: auto;
+        background-color: #FE6232;
+        border: none;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 50%;
+        border-radius: 30px;
+    }
+    
+    .notfound-button:hover {
+        margin: auto;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FD6536;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: #FE6232;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 15%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 519px) {
+    
+    .not-found-title{
+        width: 100%;
+        margin-top: 120px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .not-found-title h2{
+        color: #FE6232;
+    }
+    
+    .not-found-title p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .notfound-button {
+        margin: auto;
+        background-color: #FE6232;
+        border: none;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 50%;
+        border-radius: 30px;
+    }
+    
+    .notfound-button:hover {
+        margin: auto;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FD6536;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: #FE6232;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 15%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width: 520px) and (max-width: 599px) {
+    
+    .not-found-title{
+        width: 100%;
+        margin-top: 120px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .not-found-title h2{
+        color: #FE6232;
+    }
+    
+    .not-found-title p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .notfound-button {
+        margin: auto;
+        background-color: #FE6232;
+        border: none;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 50%;
+        border-radius: 30px;
+    }
+    
+    .notfound-button:hover {
+        margin: auto;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FD6536;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: #FE6232;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 15%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 647px) {
+    
+    .not-found-title{
+        width: 100%;
+        margin-top: 120px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .not-found-title h2{
+        color: #FE6232;
+    }
+    
+    .not-found-title p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .notfound-button {
+        margin: auto;
+        background-color: #FE6232;
+        border: none;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 50%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+    
+    .notfound-button:hover {
+        margin: auto;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FD6536;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: #FE6232;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 15%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 647px) {
+    
+    .not-found-title{
+        width: 100%;
+        margin-top: 120px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .not-found-title h2{
+        color: #FE6232;
+    }
+    
+    .not-found-title p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .notfound-button {
+        margin: auto;
+        background-color: #FE6232;
+        border: none;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 50%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+    
+    .notfound-button:hover {
+        margin: auto;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FD6536;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: #FE6232;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 15%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width: 648px) and (max-width: 799px) {
+    
+    .not-found-title{
+        width: 100%;
+        margin-top: 120px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .not-found-title h2{
+        color: #FE6232;
+    }
+    
+    .not-found-title p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .notfound-button {
+        margin: auto;
+        background-color: #FE6232;
+        border: none;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 50%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+    
+    .notfound-button:hover {
+        margin: auto;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FD6536;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: #FE6232;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 15%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+   
+
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 999px) {
+    
+    .not-found-title{
+        width: 100%;
+        margin-top: 120px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .not-found-title h2{
+        color: #FE6232;
+    }
+    
+    .not-found-title p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .notfound-button {
+        margin: auto;
+        background-color: #FE6232;
+        border: none;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 15%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+    
+    .notfound-button:hover {
+        margin: auto;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FD6536;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        color: #FE6232;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 15%;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+
+}
+/*--------------------------------------------End Of Screen Sizes--------------------------------------*/

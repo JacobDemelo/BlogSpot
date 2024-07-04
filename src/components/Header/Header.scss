@@ -1,0 +1,383 @@
+/*
+ * Project Name: Blog Spot
+ * File Name: Header.scss
+ * Purpose: This file styles the header component
+ * Author: Jacob Demelo
+ * Date: 2023-04-11
+ */
+
+//import the style variables
+@import "../../styles/variables.scss";
+
+//designing the header div
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FCF2E8;
+  position: fixed;
+  width: 100%;
+
+  .logo{
+    width: 230px;
+    height: 60px;
+  }
+
+  .nav-container{
+    margin: auto;
+    margin-left: 50%;
+    width: 30%;
+    text-align: center;
+  }
+
+  .top-nav a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: #FE6232;
+  }
+
+  .top-nav a:hover{
+    color: white;
+  }
+
+  .active {
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: bold;
+  }
+
+}
+
+/*-----------------------------------------------Screen Sizes--------------------------------------*/
+@media only screen and (min-width: 200px) and (max-width: 235px) {
+    
+  header{
+    padding: 15px;
+
+    .logo{
+      visibility: hidden;
+    }
+
+    .nav-container{
+      margin-left: -240px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 10px;
+      color: #FE6232;
+      font-size: small;
+    }
+
+    
+  }
+
+}
+
+@media only screen and (min-width: 236px) and (max-width: 279px) {
+  
+  header{
+    padding: 15px;
+
+    .logo{
+      visibility: hidden;
+    }
+
+    .nav-container{
+      margin-left: -240px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 10px;
+      color: #FE6232;
+      font-size: small;
+    }
+
+    
+  }
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 330px) {
+  
+  header{
+    padding: 15px;
+
+    .logo{
+      visibility: hidden;
+    }
+
+    .nav-container{
+      margin-left: -240px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 10px;
+      color: #FE6232;
+      font-size: small;
+    }
+
+    
+  }
+
+}
+
+@media only screen and (min-width: 331px) and (max-width: 399px) {
+  
+  header{
+    padding: 15px;
+
+    .logo{
+      width: 100px;
+      height: 30px;
+    }
+
+    .nav-container{
+      margin-left: 20px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 10px;
+      color: #FE6232;
+      font-size: small;
+    }
+
+    
+  }
+
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 479px) {
+  
+  header{
+    padding: 15px;
+
+    .logo{
+      width: 100px;
+      height: 30px;
+    }
+
+    .nav-container{
+      margin-left: -10px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 30px;
+      color: #FE6232;
+      font-size: small;
+    }
+
+    
+  }
+
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 519px) {
+  
+  header{
+    padding: 15px;
+
+    .logo{
+      width: 100px;
+      height: 30px;
+    }
+
+    .nav-container{
+      margin-left: -10px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 30px;
+      color: #FE6232;
+      font-size: small;
+    }
+
+    
+  }
+
+
+}
+
+@media only screen and (min-width: 520px) and (max-width: 599px) {
+  
+  header{
+    padding: 15px;
+
+    .logo{
+      width: 100px;
+      height: 30px;
+    }
+
+    .nav-container{
+      margin-left: -10px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 30px;
+      color: #FE6232;
+      font-size: small;
+    }
+
+    
+  }
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 647px) {
+  
+  header{
+    padding: 15px;
+
+    .logo{
+      width: 100px;
+      height: 30px;
+    }
+
+    .nav-container{
+      margin-left: -10px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 30px;
+      color: #FE6232;
+      font-size: small;
+    }
+
+    
+  }
+
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 647px) {
+  
+  header{
+    padding: 15px;
+
+    .logo{
+      width: 100px;
+      height: 30px;
+    }
+
+    .nav-container{
+      margin-left: -10px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 30px;
+      color: #FE6232;
+      font-size: small;
+    }
+
+    
+  }
+
+
+}
+
+@media only screen and (min-width: 648px) and (max-width: 799px) {
+  
+  header{
+    padding: 15px;
+
+    .logo{
+      width: 100px;
+      height: 30px;
+    }
+
+    .nav-container{
+      margin-left: -10px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 30px;
+      color: #FE6232;
+      font-size: small;
+    }
+
+    
+  }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 999px) {
+  
+  header{
+    padding: 15px;
+
+    .logo{
+      width: 150px;
+      height: 50px;
+    }
+
+    .nav-container{
+      margin-left: -10px;
+      width: max-content;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 30px;
+      color: #FE6232;
+      font-size: large;
+    }
+
+    
+  }
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+  
+  header{
+    padding: 20px;
+
+    .logo{
+      width: 150px;
+      height: 50px;
+    }
+
+    .nav-container{
+      margin-right: 20px;
+      width: 70%;
+      float: right;
+    }
+
+    .top-nav a{
+      text-decoration: none;
+      margin-left: 30px;
+      color: #FE6232;
+      font-size: larger ;
+    }
+
+    
+  }
+
+
+}
+/*------------------------------------------End Of Screen Sizes--------------------------------------*/
+

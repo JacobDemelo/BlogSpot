@@ -1,0 +1,102 @@
+/*
+ * Project Name: Blog Spot
+ * File Name: Footer.scss
+ * Purpose: This file is to design the footer
+ * Author: Jacob Demelo
+ * Date: 2023-04-11
+ */
+
+//Calling the footer class and styling the footer div
+.footer {
+    background-color: #FCF2E8;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-top: auto;
+}
+
+//Calling the footer class text element to design the footer text
+.footer-text {
+    color: black;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+/*-----------------------------------------------Screen Sizes--------------------------------------*/
+@media only screen and (min-width: 280px) and (max-width: 330px) {
+
+    .footer-text {
+        font-size: smaller;
+    }
+}
+
+@media only screen and (min-width: 331px) and (max-width: 399px) {
+
+    .footer-text {
+        font-size: smaller;
+    }
+
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 479px) {
+
+    .footer-text {
+        font-size: smaller;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 519px) {
+
+    .footer-text {
+        font-size: smaller;
+    }
+
+
+}
+
+@media only screen and (min-width: 520px) and (max-width: 599px) {
+
+    .footer-text {
+        font-size: smaller;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 647px) {
+
+    .footer-text {
+        font-size: smaller;
+    }
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 647px) {
+
+    .footer-text {
+        font-size: smaller;
+    }
+
+
+}
+
+@media only screen and (min-width: 648px) and (max-width: 799px) {
+
+    .footer-text {
+        font-size: smaller;
+    }
+
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 999px) {
+
+    .footer-text {
+        font-size: smaller;
+    }
+
+}
+/*-------------------------------------------End of Screen Sizes--------------------------------------*/
